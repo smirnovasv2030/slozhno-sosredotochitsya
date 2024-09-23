@@ -18,7 +18,7 @@
 }
 
 .theme_light .section__title-decor {
-  color: var(--background-color);
+  color: var(--text-color);
 }
 
 .theme_light .header__lamp {
@@ -26,16 +26,16 @@
 }
 
 .theme_light .header__theme-menu-button {
-  color: var(--background-color);
+  color: var(--text-color);
 }
 
 .theme_light .decorated-zone::after,
 .theme_light .decorated-zone::before {
-  border-color: var(--background-color);
+  border-color: var(--text-color);
 }
 
 .theme_light .header__theme-menu-button_type_light {
-  border: 1px solid var(--background-color);
+  border: 1px solid var(--text-color);
 }
 
 .theme_light .header__theme-menu-button_type_dark {
@@ -44,7 +44,7 @@
 
 .theme_light .header__theme-menu-button:focus-visible {
   outline-style: none;
-  border-block-end: 1px solid var(--background-color);
+  border-block-end: 1px solid var(--text-color);
 }
 
 .theme_light .header__theme-menu-button:hover {
@@ -57,13 +57,13 @@
     --accent-color: #ff8dcb;
     --text-color: #353430;
     --title-color: #FFC2E6;
-    --background-color: #353430;
+    --background-color: #FFF1F7;
     --background-image: url("../images/cover-image-light.png");
   }
 
   .theme_light .section__title-decor,
   .theme_auto .section__title-decor {
-    color: var(--background-color);
+    color: var(--text-color);
   }
 
   .theme_light .header__lamp,
@@ -73,19 +73,19 @@
 
   .theme_light .header__theme-menu-button,
   .theme_auto .header__theme-menu-button {
-    color: var(--background-color);
+    color: var(--text-color);
   }
 
   .theme_light .decorated-zone::after,
   .theme_light .decorated-zone::before,
   .theme_auto .decorated-zone::after,
   .theme_auto .decorated-zone::before {
-    border-color: var(--background-color);
+    border-color: var(--text-color);
   }
 
   .theme_light .header__theme-menu-button_type_light,
   .theme_auto .header__theme-menu-button_type_light {
-    border: 1px solid var(--background-color);
+    border: 1px solid var(--text-color);
   }
 
   .theme_light .header__theme-menu-button_type_dark,
@@ -99,7 +99,7 @@
 
   .theme_light .header__theme-menu-button:focus-visible {
     outline-style: none;
-    border-block-end: 1px solid var(--background-color);
+    border-block-end: 1px solid var(--text-color);
   }
 
   .theme_light .header__theme-menu-button:hover {
