@@ -15,6 +15,7 @@
   justify-items: end;
   padding: 10px;
   position: relative;
+  height: 100vh;
 }
 
 .decorated-zone::after {
@@ -240,7 +241,7 @@
     grid-column: 2/3;
   }
 
-  .header__lamp{
+  .header__lamp {
   right: 29px;
   }
 
@@ -359,7 +360,7 @@
     grid-column: 2/4;
   }
 
-  .footer{
+  .footer {
     margin-block-start: 60px;
   }
 }
@@ -374,7 +375,7 @@
     margin: 0;
   }
 
-  .header__theme-menu-list{
+  .header__theme-menu-list {
      display: flex;
   }
 
@@ -406,7 +407,7 @@
     column-gap: 20px;
   }
 
-  .section__title-accent{
+  .section__title-accent {
     margin-inline-start: 6px;
   }
 }
