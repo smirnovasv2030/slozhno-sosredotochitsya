@@ -22,4 +22,12 @@
   .theme_auto .page {
   background-image: url("../images/cover-image.png");
   }
+
+  .theme_auto .header__theme-menu-button_type_auto {
+    border: 1px solid var(--accent-color);
+  }
+
+  .theme_auto .header__theme-menu-button_type_dark {
+    border: none;
+  }
 }
